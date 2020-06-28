@@ -6,11 +6,11 @@ from azure.cognitiveservices.vision.customvision.training import CustomVisionTra
 SUBSCRIPTION_KEY_ENV_NAME = "CUSTOMVISION_TRAINING_KEY"
 PREDICTION_RESOURCE_ID_KEY_ENV_NAME = "CUSTOMVISION_PREDICTION_ID"
 
-SAMPLE_PROJECT_NAME = "Python SDK Sample"
+SAMPLE_PROJECT_NAME = "Bill-ee"
 PUBLISH_ITERATION_NAME = "classifyModel"
 
 # Add your Custom Vision endpoint to your environment variables.
-ENDPOINT = os.environ["CUSTOM_VISION_ENDPOINT"]
+ENDPOINT = "https://westeurope.api.cognitive.microsoft.com" # os.environ["CUSTOM_VISION_ENDPOINT"]
 
 IMAGES_FOLDER = os.path.join(os.path.dirname(
     os.path.realpath(__file__)), "images")
