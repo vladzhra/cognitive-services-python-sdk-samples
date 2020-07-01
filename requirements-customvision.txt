@@ -1,0 +1,3 @@
+azure-cognitiveservices-vision-customvision>=0.4.0  # sample won't work with previous versions
+msrest
+pandas
